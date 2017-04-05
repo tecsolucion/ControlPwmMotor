@@ -1,0 +1,13 @@
+#include <main.h>
+
+void main()
+{
+	setup_adc_ports(AN0);
+	setup_adc(ADC_CLOCK_DIV_2|ADC_TAD_MUL_0);
+
+	while(TRUE)
+	{
+		//TODO: User Code
+	}
+
+}
